@@ -1,89 +1,44 @@
-# Random Walk Web Assessment-Level 3
+# Tic Tac Toe Game
 
-Live Coding Assessment for Web Development Roles at Random Walk
+## Game Overview
 
-## Instructions:
+Tic Tac Toe is a classic, simple game enjoyed by people of all ages. This web-based version of Tic Tac Toe allows two players to compete in the timeless strategy game. Designed to be responsive, it can be played on PCs, smartphones, and tablets.
 
-1) Please ensure that you are taking the assessment alone in an empty room with good internet connectivity.
+### Video Link
+https://drive.google.com/file/d/1FAAsvUniCyAsohTNWdoWHVOQOYR68Hc-/view?usp=sharing
 
-   Internet Speedtest Link: https://www.speedtest.net/
+### Screenshots
 
-2) Fork the github repo into your personal Github account and take a clone into your local system.
+| Phone View | Tablet View | PC View |
+| ------- | ---------- | ----------- |
+| ![Phone View](https://github.com/lakshyaRW/randomwalk-web-assessment-level2/assets/76257165/3510b47a-8414-4adc-b0df-474eadc1c0f3) | ![Tablet View](https://github.com/lakshyaRW/randomwalk-web-assessment-level2/assets/76257165/a2a85c01-54b9-4ae5-a639-51a8489fd1c1) | ![PC View](https://github.com/lakshyaRW/randomwalk-web-assessment-level2/assets/76257165/cace35e8-85b2-4a3b-b00a-60a9766be60f) |
 
-   Guide to Forking Github Repo: https://docs.github.com/en/github-ae@latest/get-started/quickstart/fork-a-repo
+## Features
 
-   Guide for cloning Github Repo: https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository
+- Interactive 3x3 game grid.
+- Score tracking for two players.
+- Hand-drawn style UI for a unique gaming experience.
+- Compatible with all modern web browsers.
+- Responsive design for smooth gameplay on any device.
 
-3) Instantiate Virtual Studio code or any Development environment of your choice to complete the assessment in your local working directory.
+## How to Run the Game
 
-4) Save the files and push it into forked Github github repo.
+1. **Open on PC**: Simply open the `index.html` file in any modern web browser.
+2. **On Phone/Tablet**: Host the game on a web server and access the URL from your device's browser. For local testing, use tools like `localhost` or `ngrok` to expose your server.
 
-   Guide to pushing code into Github Repo: https://docs.github.com/en/migrations/importing-source-code/using-the-command-line-to-import-source-code/adding-locally-hosted-code-to-github
+## Tips for Smooth Gameplay
 
-5) Share the repository link into the Google Form: https://forms.gle/ucK6tnwdQ4hrmDas7
+- **On PC**: Use the latest version of browsers like Chrome, Firefox, or Edge for optimal performance.
+- **On Phone/Tablet**: Ensure your device's browser is updated. For best experience, use in landscape mode on tablets.
+- **General Tips**:
+  - Clear your browser's cache regularly for improved loading times.
+  - If using a local server, ensure a stable connection.
 
-## Problem Statement: Tic Tac Toe Game with Players names and Scorecard
+## Troubleshooting
 
-Develop a web-based Tic Tac Toe game for two players that allows them to take turns marking spaces on a 3x3 grid until one player achieves a winning pattern or the game ends in a draw. 
+- **Audio Issues**: If the background music or sound effects aren't playing, check your browser's sound settings and permissions.
+- **Display Issues**: For any display-related problems, try resizing the browser window or rotating your mobile device.
 
-The application should be able to accept the player names as input, and track each player's victories against their respective names.
+## Contributing
 
-**Requirements:**
-
-1) **Interface Design:**
-
-   a) Design an intuitive and visually appealing user interface using HTML and CSS for the game board and the scorecard.
-
-   b) Provide 2 text boxes for inputing the names of Player X and Player O.
-   
-   c) Display a 3x3 grid where players can place their marks (X or O) within the individual cells.
-
-   c) Show a scorecard that tracks the number of wins for each player against their names.
-
-2) **Game Logic:**
-
-   a) Implement game logic in JavaScript to handle player turns and interactions.
-
-   b) Allow two human players to take turns marking the grid with their respective symbols (X or O).
-
-   c) Validate each move to ensure it is made on an empty cell.
-
-   d) Detect a winning pattern (three symbols in a row, column, or diagonal) and declare the winning player.
-
-   e) Implement a mechanism to detect a draw (all cells filled without a winner).
-
-3) **Scorecard Feature:**
-
-   a) Integrate a scorecard that displays the number of wins for each player against their names.
-
-   b) Update the scorecard after each game to reflect the outcome (increment the winning player's score or declare a draw).
-
-4) **User Interaction:**
-
-   a) Take the players name as input via text box and display live scores against their names.
-   
-   b) Enable players to click or interact with the grid cells to place their marks.
-
-   b) Provide clear feedback on the current game state, including whose turn it is, the winner, or a draw.
-
-   c) Update the scorecard dynamically to reflect the latest scores.
-
-5) **Responsive Design:**
-
-   a) Ensure the game and scorecard are responsive and playable on both desktop and mobile devices.
-
-**Constraints:**
-
-1) Use vanilla JavaScript for implementing game logic without relying on external libraries or frameworks.
-
-2) Ensure compatibility with major modern web browsers.
-
-**Deliverables:**
-
-1) HTML, CSS, and JavaScript files comprising the game and scorecard feature.
-
-2) A video recording of functional Tic Tac Toe game accessible via a web browser.
-
-3) Source code with comments explaining the logic and structure for future reference or modifications. Zip it
-
-**Push the code in HTML, CSS and JS, along with a demo video of your solution into the github repo.**
+We welcome contributions to improve the game. Feel free to fork the repository, make changes, and submit a pull request.
